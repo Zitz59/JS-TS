@@ -4,12 +4,11 @@ const predicate = (age: number) => {
     return age > 90;
 }
 
-
 const oldAges = [100];
 
 type CourseType = {
-    title:string
-    price:number
+    title: string
+    price: number
 }
 
 
@@ -18,11 +17,11 @@ const courses = [{title: 'CSS', price: 100},
     {title: 'REACT', price: 150},
 ]
 
-const cheapPredicate = (course:CourseType) => {
+const cheapPredicate = (course: CourseType) => {
     return course.price < 160;
 
-const cheapCourses = [
-    {title: 'CSS', price: 100},
-    {title: 'REACT', price: 150}]
+    const cheapCourses = [
+        {title: 'CSS', price: 100},
+        {title: 'REACT', price: 150}]
 
 }
